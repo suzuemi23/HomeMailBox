@@ -191,11 +191,15 @@
 .topnav {
   color: rgb(46, 70, 189);
   overflow: hidden;
+  float: center;
+  text-align: center;
+  font-size: 0px;
+  
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
+  float: center;
   color: rgb(46, 70, 189);
   text-align: center;
   padding: 14px 16px;
@@ -206,20 +210,25 @@
 /* Change the color of links on hover */
 .topnav a:hover {
   color: rgb(10, 0, 75);
+  text-align: center;
+  float: center;
 }
 
-/* Add a color to the active/current link */
-.topnav a.active {
-    color: rgb(46, 70, 189);
-}
+
 
 html{
     background-color: rgb(246, 235, 222);
+    
 }
 
 #titlepage{
     color:rgb(46, 70, 189);
     font-size: 50px;
-    text-align: center;
+    text-align: center; 
 }
 
+#OurProducts{
+    color:rgb(46, 70, 189);
+    font-size: 30px;
+    text-align: center; 
+}
